@@ -14,3 +14,9 @@
 root { 
     display: block;
 }
+
+#main {
+    width: 1217px;
+    height: 686px;
+    background: url('../img/fond.png') no-repeat;
+}

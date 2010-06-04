@@ -14,9 +14,18 @@
 root { 
     display: block;
 }
+body {
+    background: url('../img/fond-repeat.png') repeat-x;
+    padding: 0;
+    margin: 0;
+}
 
 #main {
     width: 1217px;
     height: 686px;
     background: url('../img/fond.png') no-repeat;
+}
+
+#header {
+	height: 135px;
 }

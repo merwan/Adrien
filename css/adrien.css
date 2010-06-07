@@ -20,12 +20,21 @@ body {
     margin: 0;
 }
 
+#left {
+    float: left;
+    width: 151px;
+    height: 821px;
+    background: url('../img/fond-gauche.png') no-repeat;
+}
+
 #main {
     width: 1217px;
     height: 686px;
+    margin-left: 151px;
+    margin-right: auto;
     background: url('../img/fond.png') no-repeat;
 }
 
 #header {
-	height: 135px;
+    height: 135px;
 }

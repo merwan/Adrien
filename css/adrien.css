@@ -38,3 +38,10 @@ body {
 #header {
     height: 135px;
 }
+
+#logo {
+    margin-left: 151px;
+    width: 655px;
+    height: 135px;
+    background: url('../img/header-logo.png') no-repeat;
+}

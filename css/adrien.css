@@ -39,9 +39,17 @@ body {
     height: 135px;
 }
 
+#menu {
+	background: url('../img/perso.png') no-repeat;
+	width: 33px;
+	height: 124px;
+        float: left;
+        margin-left: -275px;
+}
+
 #logo {
-    margin-left: 151px;
     width: 655px;
     height: 135px;
     background: url('../img/header-logo.png') no-repeat;
+    float: left;
 }

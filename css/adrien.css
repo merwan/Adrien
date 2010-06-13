@@ -3,17 +3,13 @@
     Created on : 2 juin 2010, 22:46:37
     Author     : Mérouane Atig
     Description:
-        Purpose of the stylesheet follows.
-*/
-
-/* 
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+        Feuille de style du site de Adrien Muller
 */
 
 root { 
     display: block;
 }
+
 body {
     background: url('../img/fond-repeat.png') repeat-x;
     padding: 0;
@@ -39,17 +35,29 @@ body {
     height: 135px;
 }
 
-#menu {
-	background: url('../img/perso.png') no-repeat;
-	width: 33px;
-	height: 124px;
-        float: left;
-        margin-left: -275px;
-}
 
 #logo {
+    float: left;
     width: 655px;
     height: 135px;
     background: url('../img/header-logo.png') no-repeat;
+}
+
+#menu {
     float: left;
+    margin-left: -275px;
+    width: 33px;
+    height: 124px;
+    background: url('../img/perso.png') no-repeat;
+}
+
+#perso {
+    list-style-type: none;
+    color: red;
+}
+
+#rough {
+    width: 45px;
+    height: 127px;
+    background: url('../img/btn-perso-rough.png') no-repeat;
 }

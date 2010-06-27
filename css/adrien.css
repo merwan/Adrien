@@ -52,12 +52,26 @@ body {
 }
 
 #perso {
-    list-style-type: none;
     color: red;
+    list-style-type: none;
 }
 
-#rough {
+#perso li {
+    display: inline
+}
+
+#perso a {
+    float: left;
+}
+
+#rough a {
     width: 45px;
     height: 127px;
     background: url('../img/btn-perso-rough.png') no-repeat;
+}
+
+#illustrations a {
+    width: 45px;
+    height: 144px;
+    background: url('../img/btn-perso-illustration.png') no-repeat;
 }

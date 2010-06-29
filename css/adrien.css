@@ -125,3 +125,10 @@ li a {
     height: 127px;
     background: url('../img/btn-pro-divers.png') no-repeat;
 }
+
+#fond-droit {
+    width: 562px;
+    height: 135px;
+    background: url('../img/fond-droit.png') no-repeat;
+    float: left;
+}

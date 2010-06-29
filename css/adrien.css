@@ -64,6 +64,12 @@ body {
     float: left;
 }
 
+#perso a {
+    width: 33px;
+    height: 124px;
+    background: url('../img/btn-perso-titre.png') no-repeat;
+}
+
 #rough a {
     width: 45px;
     height: 127px;
@@ -74,4 +80,10 @@ body {
     width: 45px;
     height: 144px;
     background: url('../img/btn-perso-illustration.png') no-repeat;
+}
+
+#divers a {
+    width: 42px;
+    height: 136px;
+    background: url('../img/btn-perso-divers.png') no-repeat;
 }

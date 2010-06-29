@@ -45,10 +45,7 @@ body {
 
 #menu {
     float: left;
-    margin-left: -275px;
-    width: 33px;
-    height: 124px;
-    background: url('../img/perso.png') no-repeat;
+    margin-left: -322px;
 }
 
 #perso {

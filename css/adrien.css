@@ -48,18 +48,21 @@ body {
     margin-left: -282px;
 }
 
-#perso {
+ul {
     list-style-type: none;
-    margin: 8px 0 0 0;
     padding: 0;
 }
 
-#perso li {
+li {
     display: inline
 }
 
-#perso a {
+li a {
     float: left;
+}
+
+#perso {
+    margin: 13px 0 0 0;
 }
 
 #perso-titre a {
@@ -84,4 +87,41 @@ body {
     width: 42px;
     height: 136px;
     background: url('../img/btn-perso-divers.png') no-repeat;
+}
+
+#pro-titre a {
+    width: 36px;
+    height: 84px;
+    margin-left: 18px;
+    background: url('../img/btn-pro.png') no-repeat;
+}
+
+#pro-anime a {
+    width: 51px;
+    height: 127px;
+    background: url('../img/btn-pro-anime.png') no-repeat;
+}
+
+#pro-BG-couleur a {
+    width: 24px;
+    height: 127px;
+    background: url('../img/btn-pro-BG-couleur.png') no-repeat;
+}
+
+#pro-BG-nb a {
+    width: 25px;
+    height: 127px;
+    background: url('../img/btn-pro-BG-nb.png') no-repeat;
+}
+
+#pro-storyboard a {
+    width: 25px;
+    height: 127px;
+    background: url('../img/btn-pro-storyboard.png') no-repeat;
+}
+
+#pro-divers a {
+    width: 46px;
+    height: 127px;
+    background: url('../img/btn-pro-divers.png') no-repeat;
 }

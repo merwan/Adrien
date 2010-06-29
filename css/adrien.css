@@ -45,12 +45,13 @@ body {
 
 #menu {
     float: left;
-    margin-left: -322px;
+    margin-left: -282px;
 }
 
 #perso {
-    color: red;
     list-style-type: none;
+    margin: 8px 0 0 0;
+    padding: 0;
 }
 
 #perso li {
@@ -61,7 +62,7 @@ body {
     float: left;
 }
 
-#perso a {
+#perso-titre a {
     width: 33px;
     height: 124px;
     background: url('../img/btn-perso-titre.png') no-repeat;
